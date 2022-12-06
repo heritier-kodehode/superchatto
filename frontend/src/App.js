@@ -28,6 +28,7 @@ function App() {
         <Route path='/register' element={<Register />} />
       </Routes>
       <Footer />
+      <ToastContainer />
     </FlexColumn>
   );
 }
